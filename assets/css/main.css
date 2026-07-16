@@ -1343,7 +1343,7 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		/* @media screen and (max-width: 736px) {
 
 			.poptrox-popup:before {
 				display: none;
@@ -1359,7 +1359,7 @@ input, select, textarea {
 				display: none !important;
 			}
 
-		}
+		} */
 
 /* Wrapper */
 
