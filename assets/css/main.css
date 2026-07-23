@@ -2106,3 +2106,17 @@ input, select, textarea {
 	color: #3366CC !important; 
 }
 
+/* Hide short caption by default — full caption shows since it has no display rule */
+.caption-short {
+	display: none;
+}
+
+/* On mobile, swap to the shorter caption to save space */
+@media screen and (max-width: 736px) {
+	.caption-full {
+		display: none;
+	}
+	.caption-short {
+		display: inline;
+	}
+}
